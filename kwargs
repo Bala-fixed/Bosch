@@ -1,0 +1,4 @@
+#kwargs
+def s(**k):
+    return sum(k.values())
+print(s(a=1,b=2,c=8))

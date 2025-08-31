@@ -1,0 +1,16 @@
+def cal():
+    x=int(input("first"))
+    y=(input("op"))
+    z=int(input("second"))
+
+    if y=='+':
+        return x+z
+    elif y=='-':
+        return x-z
+    elif y=='*':
+        return x*z
+    elif y=='/':
+        return x/z
+    else:
+        print("enter valid op")
+print(cal())

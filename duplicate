@@ -1,0 +1,14 @@
+#Remove duplicate from list
+arr=[]
+unique=[]
+elem=int(input("Enter the number of elements"))
+for i in range(0,elem):
+    arr.append(int(input("Enter element" + str(i))))
+print("Original array:",arr)
+i=0
+while i<len(arr):
+    if arr[i] in arr[:i]:
+        del arr[i]
+    else:
+        i+=1
+print("Dulpicate removed array:", arr)

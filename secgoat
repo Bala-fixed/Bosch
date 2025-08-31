@@ -1,0 +1,12 @@
+#Second greatest
+l=[23, 56,76,12,34,55,100,34,56,99]
+g=l[0]
+sg=l[1]
+for i in range(len(l)):
+    if l[i]>g:
+        g=l[i]
+for i in range(len(l)):
+    if l[i]>sg and l[i]<g:
+        sg=l[i]
+print(g)
+print(sg)

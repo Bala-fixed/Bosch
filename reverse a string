@@ -1,3 +1,0 @@
-#Reverse a string
-'''string1=str(input("Enter the string to be reversed"))
-print(string1[::-1])'''

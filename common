@@ -1,8 +1,0 @@
-#common elements in a list
-l=[1,2,3]
-g=[3,4,5]
-c=[]
-for i in l:
-    if i in l and i in  g:
-        c.append(i)
-print(c)

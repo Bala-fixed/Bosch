@@ -1,8 +1,0 @@
-
-#Fibonacci series
-def fibo(x):
-    sum=0
-    for i in range(x):
-        sum+=i
-    return sum
-print(fibo(8))

@@ -1,4 +1,0 @@
-#sys.argv
-import sys
-print(sys.argv)
-print("script",sys.argv[0])

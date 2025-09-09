@@ -1,6 +1,0 @@
-#Longest word in senstence
-def lw(sen):
-   words=sen.split()
-   lo=max(words,key=len)
-   return lo
-print(lw("Enter the longest word"))

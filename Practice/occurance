@@ -1,0 +1,10 @@
+#Count of occurance in a list
+list=[1,2,3,4,5,5,6,]
+freq={}
+for i in list:
+    if i in freq:
+        freq[i]+=1
+    else:
+        freq[i]=1
+for k,v in freq.items():
+    print(k,"repeats",v,"time")

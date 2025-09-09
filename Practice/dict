@@ -1,0 +1,7 @@
+#Dict 1-10
+mydict={}
+for i in range(1,11):
+   mydict[i]=i*i
+print(mydict)
+
+print(bina([1,2,3,4,5,6,7,8],2))

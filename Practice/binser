@@ -1,0 +1,12 @@
+def bina(arr,tar):
+   l=0
+   h=len(arr)-1
+   while l<=h:
+       mid=(l+h)//2
+       if arr[mid]==tar:
+           return mid
+       elif arr[mid]<tar:
+           l=mid+1
+       else:
+           h=mid-1
+   return "not found"

@@ -12,4 +12,5 @@ def is_balanced(x):
                 return "NO"
     return "YES" if not stack else "NO"
 
+
 print(is_balanced('({'))
